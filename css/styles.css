@@ -1,1 +1,133 @@
+header {
+    background-color: #FFF;
+    width: 1440px;
+    height: 72px;
+}
 
+.nav-list {
+    color: #2E2F42;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;/* 150% */
+    letter-spacing: 0.32px;
+}
+
+.address-link {
+    color: #434455;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.32px;
+}
+
+.main-solutions {
+    background-color: #2E2F42;
+    width: 1440px;
+    height: 600px;
+}
+
+.solutions-btn {
+    border-radius: 4px;
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 60px;/* 107.143% */
+    letter-spacing: 1.12px;
+}
+
+.main-benefits {
+    background-color: #FFF;
+    width: 1440px;
+    height: 3300px;
+}
+
+.main-team {
+    background-color: #F4F4FD;
+    width: 1440px;
+    height: 732px;
+}
+
+.main-portfolio {
+    background-color: #FFF;
+    width: 1440px;
+    height: 3300px;
+}
+
+h2 {
+    color: #2E2F42;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;/* 111.111% */
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+
+h3 {
+    color: #2E2F42;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    /* 120% */
+    letter-spacing: 0.4px;
+}
+
+p {
+    color: #434455;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.32px;
+}
+
+.footer {
+    background-color: #2E2F42;
+    width: 1440px;
+    height: 312px;
+    flex-shrink: 0;
+}
+
+.footer-title {
+    color: #F4F4FD;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;/* 150% */
+    letter-spacing: 0.32px;
+}
+
+.header-logo {
+    color: #4D5AE5;
+    color: #2E2F42;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;/* 116.667% */
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.footer-logo {
+    color: #4D5AE5;
+    color: #F4F4FD;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;/* 116.667% */
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
