@@ -1,7 +1,8 @@
+/*=====general=====*/
 body {
-    font-family: Roboto; sans-serif;
-    font-style: normal;
-    color: ;
+    font-family: Roboto, sans-serif;
+    color: #434455;
+    background-color: #FFF;
 }
 
 a {
@@ -12,23 +13,22 @@ ul {
     list-style: none;
 }
 
-header {
-    background-color: #FFF;
-    width: 1440px;
-    height: 72px;
-}
-
+/**=====HEADER=====*/
 .header-logo {
     color: #2E2F42;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
-.header-item {
+.header-logo span {
+    color: #4D5AE5;
+}
+
+.header-link {
     color: #2E2F42;
     font-size: 16px;
     font-weight: 500;
@@ -36,23 +36,30 @@ header {
     letter-spacing: 0.02em;
 }
 
-.header-address {
+.header-link:hover {
+    color: #404bbf;
+}     
+.header-link:focus {
+    color: #404bbf;
+}
+
+.header-address-link {
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
-.header-address:hover,
+.header-address:hover {
+    color: #404bbf;
+}
 .header-address:focus {
-    color: ;
+    color: #404bbf;
 }
 
-
+/**=====EFFECT SOLUTIONS=====*/
 .main-solutions {
     background-color: #2E2F42;
-    width: 1440px;
-    height: 600px;
 }
 
 .solutions-title {
@@ -65,19 +72,26 @@ header {
 }
 
 .solutions-btn {
-    border-radius: 4px;
     background: #4D5AE5;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    }
-
-.main-benefits {
-    background-color: #FFF;
-    width: 1440px;
-    height: 3300px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
 }
 
+.solutions-btn:hover {
+    color: #404bbf;
+    cursor: pointer;
+}
+.solutions-btn:focus {
+    color: #404bbf;
+    cursor: pointer;
+}
 
-h3 {
+/**=====BENEFITS=====*/
+.benefits-subtitle {
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
@@ -85,16 +99,16 @@ h3 {
     letter-spacing: 0.02em;
 }
 
-.benefits-subtitle {
-
+.benefits-text {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
-
-
+/**=====TEAM=====*/
 .main-team {
     background-color: #F4F4FD;
-    width: 1440px;
-    height: 732px;
 }
 
 .team-title {
@@ -104,26 +118,25 @@ h3 {
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    text-transform: capitalize;
 }
 
-
-
-p {
+.team-subtitle {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.team-text {
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
-.benefits-text {
-
-}
-
+/**=====PORTFOLIO=====*/
 .main-portfolio {
     background-color: #FFF;
-    width: 1440px;
-    height: 3300px;
 }
 
 .portfolio-title {
@@ -133,14 +146,25 @@ p {
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    text-transform: capitalize;
 }
 
+.portfolio-subtitle {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.portfolio-text {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+/**=====FOOTER=====*/
 .footer {
     background-color: #2E2F42;
-    width: 1440px;
-    height: 312px;
-    flex-shrink: 0;
 }
 
 .footer-title {
@@ -160,20 +184,6 @@ p {
     text-transform: uppercase;
 }
 
-.web-name {
+.footer-logo span {
     color: #4D5AE5;
 }
-
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
-
